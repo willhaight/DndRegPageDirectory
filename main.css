@@ -106,3 +106,28 @@ body {
     border-radius: 8px;
     /* Optional: add border-radius for rounded corners */
 }
+
+.content {
+    margin-top: 3em;
+    background-color: #2c2c2e;
+    /* Slightly Lighter Gray */
+    color: #f5f5f7;
+    /* Off-White */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    /* Adjust to space items evenly */
+    align-items: center;
+    position: relative;
+    /* Ensure the header is positioned relative for absolute positioning inside it */
+    padding: 20px;
+    /* Add padding if needed for spacing */
+    border-radius: 8px;
+    transition: width 0.3s ease;
+}
+
+.content a {
+    color: #f5f5f7;
+    font-size: 2em;
+}
